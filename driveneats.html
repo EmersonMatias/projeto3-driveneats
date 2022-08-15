@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Driven Eats</title>
+
+        <link rel="stylesheet" href="driveneats.css"> 
+        <link rel="stylesheet" href="reset.css">
+    </head> 
+
+    <body>
+        
+       <div class="mainpage">
+
+            <div class="cabecalho">
+            <h1>DrivenEats</h1>
+            <p>Sua comida em 6 minutos</p>
+            </div>
+            <div class="cardapio">
+
+            <div class="pratos comida">
+                <h2>Primeiro, seu prato</h2>
+                <div class="opcoes-pratos" >
+
+                    <button class="prato" onclick='prato_escolhido(this)'>
+                        <img src="prato1.jpg">
+                        <h4>Bife Grelhado</h4>
+                        <p class="descricao">Arroz, Feijão, Salada e Bife Grelhado.</p>
+                        <p class="preco">R$ <span>27.00</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='prato_escolhido(this)'>
+                        <img src="prato2.jpg">
+                        <h4>Frango Grelhado</h4>
+                        <p class="descricao">Arroz, Feijão, Salada e Frango Grelhado.</p>
+                        <p class="preco">R$ <span>23.00</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='prato_escolhido(this)'>
+                        <img src="prato3.jpg">
+                        <h4>Frango em Tiras</h4>
+                        <p class="descricao">Frango em tiras com batata e salada.</p>
+                        <p class="preco">R$ <span>25.00</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='prato_escolhido(this)'>
+                        <img src="prato4.jpg">
+                        <h4>Frango Assado</h4>
+                        <p class="descricao">Frango Assado com batata fritas e salada.</p>
+                        <p class="preco">R$ <span>30.00</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='prato_escolhido(this)'>
+                        <img src="prato5.jpg">
+                        <h4>Frango Cozido</h4>
+                        <p class="descricao">Frango Cozido com batata e salada.</p>
+                        <p class="preco">R$ <span>22.00</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='prato_escolhido(this)'>
+                        <img src="prato6.jpg">
+                        <h4>Bisteca Grelhada</h4>
+                        <p class="descricao">Bisteca grelhada com batata frita e salada.  </p>
+                        <p class="preco">R$ <span>19.00</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='prato_escolhido(this)'>
+                        <img src="prato7.jpeg">
+                        <h4>Feijoada</h4>
+                        <p class="descricao">Feijoada com arroz e farofa.</p>
+                        <p class="preco">R$ <span>20.00</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    
+                </div>
+            </div>
+
+            <div class="pratos bebida">
+                <h2>Agora, sua bebida</h2>
+                <div class="opcoes-pratos">
+
+                    <button class="prato" onclick='bebida_escolhido(this)'>
+                        <img src="bebida1.jpg">
+                        <h4>Coca-Cola</h4>
+                        <p class="descricao">Coca-Cola 350ml</p>
+                        <p class="preco">R$ <span>6.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='bebida_escolhido(this)'>
+                        <img src="bebida2.jpg">
+                        <h4>Fanta Uva</h4>
+                        <p class="descricao">Fanta Uva 350ml</p>
+                        <p class="preco">R$ <span>5.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='bebida_escolhido(this)'>
+                        <img src="bebida3.jpg">
+                        <h4>Fanta Laranja</h4>
+                        <p class="descricao">Fanta Laranja 350ml</p>
+                        <p class="preco">R$ <span>5.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='bebida_escolhido(this)'>
+                        <img src="bebida4.jpg">
+                        <h4>Pepsi</h4>
+                        <p class="descricao">Pepsi 350ml</p>
+                        <p class="preco">R$ <span>6.50</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='bebida_escolhido(this)'>
+                        <img src="bebida5.png">
+                        <h4>Pepsi Black</h4>
+                        <p class="descricao">Pepsi Black 350ml</p>
+                        <p class="preco">R$ <span>7.00</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='bebida_escolhido(this)'>
+                        <img src="bebida6.jpg">
+                        <h4>Guaraná Antartica</h4>
+                        <p class="descricao">Guaraná Antartica 350ml</p>
+                        <p class="preco">R$ <span>4.50</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='bebida_escolhido(this)'>
+                        <img src="bebida7.jpg">
+                        <h4>Sprite</h4>
+                        <p class="descricao">Sprite 350ml</p>
+                        <p class="preco">R$ <span>5.50</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                
+                </div>
+
+            </div>
+
+            <div class="pratos sobremesa">
+                <h2>Por fim, sua sobremesa</h2>
+                <div class="opcoes-pratos">
+
+                    <button class="prato" onclick='sobremesa_escolhido(this)'>
+                        <img src="sobremesa1.jpg">
+                        <h4>Pudim</h4>
+                        <p class="descricao">Pudim Cremoso</p>
+                        <p class="preco">R$ <span>14.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='sobremesa_escolhido(this)'>
+                        <img src="sobremesa2.jpg">
+                        <h4>Brigadeiro</h4>
+                        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+                        <p class="preco">R$ <span>5.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='sobremesa_escolhido(this)'>
+                        <img src="sobremesa3.jpg">
+                        <h4>Bolo de Cenoura</h4>
+                        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+                        <p class="preco">R$ <span>10.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='sobremesa_escolhido(this)'>
+                        <img src="sobremesa4.jpg">
+                        <h4>Bolo de Morango</h4>
+                        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+                        <p class="preco">R$ <span>15.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='sobremesa_escolhido(this)'>
+                        <img src="sobremesa5.jpg">
+                        <h4>Salada de Frutas</h4>
+                        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+                        <p class="preco">R$ <span>8.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='sobremesa_escolhido(this)'>
+                        <img src="sobremesa6.jpg">
+                        <h4>Sorvete </h4>
+                        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+                        <p class="preco">R$ <span>9.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+                    <button class="prato" onclick='sobremesa_escolhido(this)'>
+                        <img src="sobremesa7.jpg">
+                        <h4>Açai</h4>
+                        <p class="descricao">Um pouco de batata, um pouco de salada</p>
+                        <p class="preco">R$ <span>12.90</span></p>
+                        <div class="certo">
+                            <img src="selecionado.png">
+                        </div>
+                    </button>
+        
+                </div>
+                
+            </div>
+
+            </div>
+            <div class="rodape">
+            <button class="botao" onclick="finalizarpedido()">Selecione os 3 itens<br> para fechar o pedido</button>
+            </div>
+
+       </div>
+        
+        <script src="driveneats.js"></script>
+       
+    </body>
+
+</html>
